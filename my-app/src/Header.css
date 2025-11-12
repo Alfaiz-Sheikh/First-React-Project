@@ -1,0 +1,66 @@
+header{
+    width: 100vw;
+    padding: 20px 0;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > img{
+    height: 40px;
+}
+
+.menu > ul{
+    list-style: none;
+    display: flex;
+    gap: 3em;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.menu > ul > li > a:hover{
+    color: #f96e00;
+}
+
+.hire-me{
+    background-color: #f96e00;
+    padding: 7px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #f96e00;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.hire-me:hover{
+    background-color: transparent;
+    color: #f96e00;
+    cursor: pointer;
+}
+
+#more{
+    color: #fff;
+    font-size: 2em;
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .menu{
+        display: none;
+    }
+
+    #more{
+        display: inline-block;
+    }
+}

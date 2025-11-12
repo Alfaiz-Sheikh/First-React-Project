@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
@@ -15,9 +16,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Mr. Sheikh Here
         </a>
+        <h1>Alfaiz Sheikh</h1>
       </header>
+      <Header/>
     </div>
   );
 }
