@@ -1,0 +1,43 @@
+#restaurants{
+    width: 100vw;
+    padding: 25px 0;
+}
+
+.restaurant-sec{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resCard{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    color: #a7a7a7;
+    line-height: 25px;
+    transition: all 0.3s ease;
+    margin-top: 25px;
+}
+
+.resCard:hover{
+    box-shadow: 0 0px 10px black;
+    cursor: pointer;
+}
+
+.resImage{
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 3/2;    
+}
+
+.resName{
+    color: #f96e00;
+    padding: 10px 0;
+}
+
+.time{
+    float: right;
+}

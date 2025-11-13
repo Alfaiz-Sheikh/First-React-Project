@@ -32,7 +32,7 @@ nav{
     color: #f96e00;
 }
 
-.hire-me{
+.login{
     background-color: #f96e00;
     padding: 7px 40px;
     border-radius: 10px;
@@ -43,7 +43,7 @@ nav{
     text-decoration: none;
 }
 
-.hire-me:hover{
+.login:hover{
     background-color: transparent;
     color: #f96e00;
     cursor: pointer;
