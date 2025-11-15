@@ -1,6 +1,9 @@
 header{
     width: 100vw;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    background-color: #141312;
 }
 
 nav{
@@ -11,7 +14,7 @@ nav{
     align-items: center;
 }
 
-.logo > img{
+.logo > a > img{
     height: 40px;
 }
 

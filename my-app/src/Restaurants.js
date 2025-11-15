@@ -17,13 +17,11 @@ function Restaurants() {
     return (
         <section id="restaurants">
             <div className="restaurant-sec">
-                <ResCards resData = {resList[0].card.card.info}/>
-                <ResCards resData = {resList[1].card.card.info}/>
-                <ResCards resData = {resList[2].card.card.info}/>
-                <ResCards resData = {resList[3].card.card.info}/>
-                <ResCards resData = {resList[4].card.card.info}/>
-                <ResCards resData = {resList[5].card.card.info}/>
-                <ResCards resData = {resList[6].card.card.info}/>
+                {
+                    resList.map((restaurant) => (
+                        <ResCards key={restaurant.card.card.info.id} resData={restaurant.card.card.info} />
+                    ))
+                }
             </div>
         </section>
     );
