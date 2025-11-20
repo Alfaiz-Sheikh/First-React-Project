@@ -1,7 +1,15 @@
+.body{
+    margin-top: 100px;
+}
+
+.filter{
+    width: 80%;
+    margin: auto;
+}
+
 #restaurants{
     width: 100vw;
     padding: 25px 0;
-    margin-top: 75px;
 }
 
 .restaurant-sec{
@@ -9,12 +17,12 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1.5%;
 }
 
 .resCard{
-    width: 30%;
+    width: 22%;
     padding: 10px;
     border-radius: 20px;
     color: #a7a7a7;
@@ -42,4 +50,20 @@
 
 .time{
     float: right;
+}
+
+.filter-btn{
+    color: #fff;
+    background: #f96e00;
+    border: 2px solid #f96e00;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover{
+    background: transparent;
+    color: #f96e00;
+    cursor: pointer;
 }
